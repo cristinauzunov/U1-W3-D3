@@ -8,6 +8,7 @@ function addTask(){
     if (!text) return
 
 const li = document.createElement("li")
+li.classList.add("li")
 
 const label = document.createElement("span")
 label.textContent = text
@@ -26,7 +27,6 @@ TaskList.appendChild(li)
 input.value = ""
 input.focus()
 }
-
 
 addButton.addEventListener("click", addTask)
 

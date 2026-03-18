@@ -19,15 +19,13 @@ body {
   height: 30px;
   background-color: lightblue;
   border: none;
+  
  
 }
 
 ul{
-   list-style-position: inside;
-   border: 2px solid black;
-   background-color: burlywood;
-   border-style: unset ;
-   color:black
+   list-style-type: none ;
+   
 }
 
 .deleteButton{
@@ -40,4 +38,14 @@ ul{
 
 .done{
     text-decoration: line-through;
+}
+
+.li {
+   background-color :rgba(100, 0, 0, 0.3)  ;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    transition: all 0.2s;
 }
